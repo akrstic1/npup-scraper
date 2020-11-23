@@ -69,9 +69,6 @@ while True:
 	psoup = dohvatiHtml()
 	lista_oglasa = dohvatiOglase(psoup)
 
-	lista_oglasa[0][0] = "promjena"
-	lista_oglasa[2][1] = "test"
-
 	#Prodi kroz sve oglase
 	for oglas in lista_oglasa:
 		#Podudaraju li se novi oglasi sa starim,
