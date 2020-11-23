@@ -3,9 +3,9 @@ from urllib.request import urlopen
 from time import sleep
 import smtplib
 
-email = "mojtestnimail097"
-password = "testmail123#"
-email_odrediste = "arno.krstic@gmail.com"
+email = ""
+password = ""
+email_odrediste = ""
 
 page_url = "https://studentskiservis.unizd.hr/poslovi"
 
